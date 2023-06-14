@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formation des habitants</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body class="body-primary">
+    <div class="bloc">
+        <div class="bloc-left">
+            <center style="padding-bottom: 15px;">
+                <h1>Recensement d'un fokontany</h1>
+                <video src="./assets/video.mp4" controls poster="./assets/italy- (1).jpg" title="voir une vidéo"></video><br>
+                <a href="./assets/video.mp4"download style="text-decoration: none;">Télécharger le vidéo</a>
+                <p>Vous pouvez regarder une vidéo ou ecouter une musique en attendant</p>
+                <audio src="./assets/fy.mp3" controls poster="./assets/italy- (4).jpg" title="Ecouter une musique"></audio><br>
+                <a href="./assets/fy.mp3" download style="text-decoration: none;">Télécharger l'audio</a>
+                
+            </center>  <br>
+        </div>
+        <div class="bloc-right">
+           <center> <h2>Enregistrement</h2></center>
+        <form class="form-primary">
+            
+            <table>
+                <tr>
+                    <td>
+                        <label for="input_nom">Nom:</label>
+                    </td>
+                    <td>
+                        <label for="input_prenom">Prénom:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="user-nom" placeholder="Entrer votre nom" class="input-tab">
+                    </td>
+                    <td>
+                        <input type="text" name="user-prenom" placeholder="Entrer votre prenom" class="input-tab">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="input-date" >Date de nassance:</label>
+                    </td>
+                    <td>
+                        <label for="input-lieu">Lieu de naissance:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="date" name="user-date" placeholder="votre date de naissance"class="input-tab">
+                    </td>
+                    <td>
+                        <input type="text" name="user-lieu" placeholder="votre Lieu de naissance"class="input-tab">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="input-age">Age:</label>
+                    </td>
+                    <td>
+                        <label for="input_cin">N° CIN:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" name="user-age" placeholder="votre Age"class="input-tab"> 
+                    </td>
+                    <td>
+                        <input type="number" name="user-cin" placeholder="votre numero CIN"class="input-tab">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <div class="form-group">
+                <label for="input-sexe">Sexe:</label>
+                <label for="input-feminin">Feminin</label>
+                <input type="radio" value="Feminin" name="sexe">
+                <label for="input-masculin">Masculin</label>
+                <input type="radio" value="Masculin"name="sexe">
+            </div><br>
+            <div class="form-group">
+                <label for="input-select">Sélectionnez votre cartier:</label>
+                <select name="cartier" id="cartier">
+                    <option>Nord</option>
+                    <option>Sud</option>
+                    <option>Est</option>
+                    <option>Ouest</option>
+                </select>
+            </div><br>
+            <div class="form-group">
+                <label for="sport-type">Votre sport préférés:</label>
+                <label for="sport-foot">football</label>
+                <input type="checkbox" id="sport-foot">
+                <label for="sport-basket">basketball</label>
+                <input type="checkbox" name="" id="sport-basket">
+                <label for="sport-hand">handball</label>
+                <input type="checkbox" id="sport-hand">
+                <label for="sport-autre">Autre</label>
+                <input type="checkbox" id="sport-autre">
+            </div><br>
+            <div class="form-group">
+                <label for="input-color" >Choisissez votre couleur:</label>
+                <input type="color" style="border-radius: 30%;">
+            </div><br><br>
+            <div class="form-group">
+                <a href="login.html" class="button"> Valider </a>
+               <p>Vous avez déjà un compte?<a href="login.html">se connecter</a></p>
+                
+            </div>
+        </form>
+       </div>
+    </div>
+</body>
+</html>
